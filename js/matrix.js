@@ -1,6 +1,6 @@
 // Get the canvas element
 const canvas = document.getElementById("matrixCanvas");
-const ctx = canvas.getContext("3d");
+const ctx = canvas.getContext("2d");
 
 // Set the width and height of the canvas
 const canvasWidth = window.innerWidth;
