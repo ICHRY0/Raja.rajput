@@ -1,6 +1,6 @@
 // Get the canvas element
 const canvas = document.getElementById("matrixCanvas");
-const ctx = canvas.getContext("2d");
+const ctx = canvas.getContext("3d");
 
 // Set the width and height of the canvas
 const canvasWidth = window.innerWidth;
@@ -45,7 +45,7 @@ function updateMatrix() {
   ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
   // Set the text color and font
-  ctx.fillStyle = "red";
+  ctx.fillStyle = "green";
   ctx.font = "12px timesnewroman";
 
   // Loop through each column
